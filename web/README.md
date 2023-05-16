@@ -1,0 +1,1 @@
+npx create-next-app@latest web --use-npm   -- to create a next project called web
