@@ -16,3 +16,5 @@ npm i prisma -D
   npx prisma studio   -- usar o visualizador padrão do prisma para ver as tabelas
 
   npm i @prisma/client   -- para acessar o banco de dentro da aplicação
+  npm i zod   -- validação de dados
+  npm i @fastify/cors   -- técnica de segurança de quais urls podem acessar o backend
