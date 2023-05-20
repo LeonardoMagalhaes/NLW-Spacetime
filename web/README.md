@@ -7,3 +7,6 @@ Fazer a criação de um projeto OAuth no Github para pegar as informações como
 
 npm i axios
 npx expo install expo-auth-session expo-crypto
+
+npm install -D @tailwindcss/forms   -- para substituir a estilização padrão do css para formulário (checkboxes nesse caso)
+  plugins: [require('@tailwindcss/forms')],   -- adicionar essa linha no arquivo tailwind.config.js
