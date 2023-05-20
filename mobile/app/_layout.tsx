@@ -19,9 +19,7 @@ import { useEffect, useState } from 'react'
 const StyledStripes = styled(Stripes)
 
 export default function Layout() {
-  const [isUserAuthenticated, setIsUserAuthenticated] = useState<
-    null | boolean
-  >(null)
+  const [isUserAuthenticated, setIsUserAuthenticated] = useState<null | boolean>(null)
 
   const [hasLoadedFonts] = useFonts({
     Roboto_400Regular,
@@ -54,7 +52,7 @@ export default function Layout() {
           contentStyle: { backgroundColor: 'transparent' },
         }}
       >
-        <Stack.Screen name="index" redirect={isUserAuthenticated} />
+        <Stack.Screen name="index" redirect={isUserAuthenticated} /> {/* A propriedade redirect redireciona para a próxima rota (a de baixo no caso) */}
         <Stack.Screen name="new" />
         <Stack.Screen name="memories" />
       </Stack>

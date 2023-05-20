@@ -11,7 +11,7 @@ const discovery = {
   authorizationEndpoint: 'https://github.com/login/oauth/authorize',
   tokenEndpoint: 'https://github.com/login/oauth/access_token',
   revocationEndpoint:
-    'https://github.com/settings/connections/applications/ea943f2793eeed4ad9bb',
+    'https://github.com/settings/connections/applications/d26f194cc5d5132a51be',
 }
 
 export default function App() {
@@ -19,7 +19,7 @@ export default function App() {
 
   const [, response, signInWithGithub] = useAuthRequest(
     {
-      clientId: 'ea943f2793eeed4ad9bb',
+      clientId: 'd26f194cc5d5132a51be',
       scopes: ['identity'],
       redirectUri: makeRedirectUri({
         scheme: 'nlwspacetime',
@@ -41,8 +41,6 @@ export default function App() {
   }
 
   useEffect(() => {
-    // para pegar a url e colocar no Authorization callback URL do GITHUB
-
     // console.log(
     //   'response',
     //   makeRedirectUri({
