@@ -24,3 +24,5 @@ npm i prisma -D
   npm i dotenv -D   -- para que as variáveis de ambientes possam ser lidas.
   npm i axios   -- para fazer requisições http
   npm i @fastify/jwt   -- para manter o usuário autenticado
+  npm i @fastify/multipart   -- para comunicação com o front end de qualquer tipo de dado
+  npm i @fastify/static   -- faz com que uma pasta do backend fique pública.
