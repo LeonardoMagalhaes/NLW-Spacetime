@@ -18,3 +18,9 @@ npm i prisma -D
   npm i @prisma/client   -- para acessar o banco de dentro da aplicação
   npm i zod   -- validação de dados
   npm i @fastify/cors   -- técnica de segurança de quais urls podem acessar o backend
+
+  Fazer a criação de um projeto OAuth no Github para pegar as informações como ClientId e Authorization callback URL
+
+  npm i dotenv -D   -- para que as variáveis de ambientes possam ser lidas.
+  npm i axios   -- para fazer requisições http
+  npm i @fastify/jwt   -- para manter o usuário autenticado
