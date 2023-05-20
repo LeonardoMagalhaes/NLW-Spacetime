@@ -23,3 +23,5 @@ npx expo install expo-secure-store   -- para salvar informações sensíveis no 
 
 --- expo router permite usar a mesma estrutura de roteamento do Next.js
 npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
+
+npx expo install expo-image-picker   -- biblioteca usada para manuseio de imagens do dispositivo.
