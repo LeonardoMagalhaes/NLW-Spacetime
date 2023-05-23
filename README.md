@@ -1,21 +1,21 @@
-<!-- <a name="readme-top"></a>
+<a name="readme-top"></a>
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url] -->
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <!-- <a href="https://github.com/LeonardoMagalhaes/NLW-Spacetime">
-    <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green-768x231.png" alt="Logo" width="80" height="80">
-  </a> -->
+  <a href="https://github.com/LeonardoMagalhaes/NLW-Spacetime">
+    <img src="Screenshot_Spacetime_Web.png" alt="Web Project Screenshot " width="80" height="80">
+  </a>
 
-<h3 align="center">Spacetime Mobile</h3>
+<h3 align="center">Spacetime</h3>
 
   <p align="center">
     This is a module of the NLW Spacetime provided by Rocketseat.
@@ -50,7 +50,6 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -68,17 +67,17 @@
 ### Built With
 
 
+* [![Node][NodeJS]][Node-url]
 * [![Expo][ExpoJS]][Expo-url]
+* [![Next][Next.js]][Next-url]
 * [![Axios][AxiosJS]][Axios-url]
 * [![React][React.js]][React-url]
+* [![Prisma][PrismaJS]][Prisma-url]
+* [![Fastify][FastifyJS]][Fastify-url]
 * [![Tailwind][TailwindCSS]][Tailwind-url]
 * [![Typescript][TypescriptJS]][Typescript-url]
 * [![ReactNative][ReactNativeJS]][ReactNative-url]
 
-<!-- * [![Next][Next.js]][Next-url] -->
-<!-- * [![Node][NodeJS]][Node-url] -->
-<!-- * [![Prisma][PrismaJS]][Prisma-url] -->
-<!-- * [![Fastify][FastifyJS]][Fastify-url] -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -87,21 +86,15 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-First, go to your Github account and create a project (under Settings/ Developer Settings/ OAuth Apps).
+This is a multipart project. First, initiate the server (instructions are inside it) then start the project you want to work on.
 
-For Mobile application, the Authorization callback URL should be exp://localhost:19000/--/*
-
-Get ClientId and place it in the .env file at the server project.
-
-Then, run the development server:
-
-```bash
+<!-- ```bash
 npm start
 # or
 yarn start
 # or
 pnpm start
-```
+``` -->
 
 
 
@@ -143,7 +136,7 @@ Project Link: [https://github.com/LeonardoMagalhaes/NLW-Spacetime](https://githu
 
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+<!-- ## Acknowledgments
 
 ```js
   npm install nativewind      // Traduz Tailwind para react-native
@@ -172,7 +165,7 @@ Project Link: [https://github.com/LeonardoMagalhaes/NLW-Spacetime](https://githu
 
   npx expo install expo-image-picker   // Biblioteca usada para manuseio de imagens do dispositivo.
 ```
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
 
@@ -204,11 +197,11 @@ Project Link: [https://github.com/LeonardoMagalhaes/NLW-Spacetime](https://githu
 [ReactNative-url]: https://reactnative.dev
 [ExpoJS]: https://img.shields.io/badge/expo-000020?style=for-the-badge&logo=expo&logoColor=white
 [Expo-url]: https://expo.dev
-<!-- [PrismaJS]: https://img.shields.io/badge/prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white
+[PrismaJS]: https://img.shields.io/badge/prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white
 [Prisma-url]: https://www.prisma.io
 [FastifyJS]: https://img.shields.io/badge/fastify-000000?style=for-the-badge&logo=fastify&logoColor=white
 [Fastify-url]: https://www.fastify.io
 [NodeJS]: https://img.shields.io/badge/node-339933?style=for-the-badge&logo=nodedotjs&logoColor=white
 [Node-url]: https://nodejs.org/en
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/  -->
+[Next-url]: https://nextjs.org/ 
