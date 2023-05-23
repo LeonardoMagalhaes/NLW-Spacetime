@@ -12,7 +12,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/LeonardoMagalhaes/NLW-Spacetime">
-    <img src="Screenshot_Spacetime_Web.png" alt="Web Project Screenshot" height="200">
+    <img src="Screenshot_Spacetime_Web.png" alt="Web Project Screenshot" height="300">
   </a>
 
 <h3 align="center">Spacetime</h3>
